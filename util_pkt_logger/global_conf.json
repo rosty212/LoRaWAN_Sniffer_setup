@@ -1,0 +1,74 @@
+{
+    "SX1301_conf": {
+        "lorawan_public": true,
+        "clksrc": 1, /* radio_1 provides clock to concentrator */
+	"com_type": "SPI",
+        "com_path": "/dev/spidev0.0",
+        "radio_0": {
+            "enable": true,
+            "type": "SX1257",
+            "freq": 867500000,
+            "rssi_offset": -166.0,
+            "tx_enable": false
+        },
+        "radio_1": {
+            "enable": true,
+            "type": "SX1257",
+            "freq": 868500000,
+            "rssi_offset": -166.0,
+            "tx_enable": false
+        },
+        "chan_multiSF_0": {
+            /* Lora MAC channel, 125kHz, all SF, 868.1 (868.9) MHz */
+            "enable": true,
+            "radio": 1,
+            "if": 400000
+        },
+        "chan_multiSF_1": {
+            /* Lora MAC channel, 125kHz, all SF, 868.3 (868.7) MHz */
+            "enable": true,
+            "radio": 1,
+            "if": 200000
+        },
+        "chan_multiSF_2": {
+            /* Lora MAC channel, 125kHz, all SF, 868.5 MHz */
+            "enable": true,
+            "radio": 1,
+            "if": 0
+        },
+        "chan_multiSF_3": {
+            /* Lora MAC channel, 125kHz, all SF, 867.1 MHz */
+            "enable": true,
+            "radio": 0,
+            "if": -400000
+        },
+        "chan_multiSF_4": {
+            /* Lora MAC channel, 125kHz, all SF, 867.3 MHz */
+            "enable": true,
+            "radio": 0,
+            "if": -200000
+        },
+        "chan_multiSF_5": {
+            /* Lora MAC channel, 125kHz, all SF, 867.5 MHz */
+            "enable": true,
+            "radio": 0,
+            "if": 0
+        },
+        "chan_multiSF_6": {
+            /* Lora MAC channel, 125kHz, all SF, 867.7 MHz */
+            "enable": true,
+            "radio": 0,
+            "if": 200000
+        },
+        "chan_multiSF_7": {
+            /* Lora MAC channel, 125kHz, all SF, 867.9 MHz */
+            "enable": true,
+            "radio": 0,
+            "if": 400000
+        }
+    },
+    "gateway_conf": {
+        "gateway_ID": "2e76b17a0f712728"
+    }
+}
+
