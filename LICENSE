@@ -47,3 +47,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+Notice: This repository is built upon and modifies the open-source lora_gateway project originally created by Lora-net. Full credit goes to the original developers for the core architecture.
