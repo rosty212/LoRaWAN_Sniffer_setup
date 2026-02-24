@@ -47,4 +47,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+--- Modifications of the packet logger libraries ---
+
 Notice: This repository is built upon and modifies the open-source lora_gateway (https://github.com/Lora-net/lora_gateway/tree/master) project originally created by Lora-net (https://github.com/Lora-net). Full credit goes to the original developers for the core architecture.
